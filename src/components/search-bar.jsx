@@ -18,13 +18,13 @@ class SearchBar extends React.Component {
     return (
       <div className="my-3 w-100">
         <form onSubmit={this.handleSubmit} className="form-group">
-          <label htmlFor="video-search">Video Search</label>
           <input
             type="text"
             className="search-bar form-control"
             id="video-search"
             onChange={this.handleChange}
             value={this.state.text}
+            placeholder="Serach"
           />
         </form>
       </div>
