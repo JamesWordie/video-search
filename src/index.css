@@ -18,6 +18,7 @@ iframe {
 
 .fas, .fab {
   color:  white;
+  font-size: 18px;
 }
 .fab.fa-youtube {
   color:  red !important;

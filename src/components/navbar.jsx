@@ -7,7 +7,8 @@ const Navbar = ({ onSubmit }) => {
       <div className="d-flex justify-content-start align-items-center w-100">
         <i className="fas fa-bars mx-3"></i>
         <i className="fab fa-youtube"></i>
-        <p className="m-0 mx-3 text-white">Youtube</p>
+        <h5 className="my-0 mx-2 text-white">Youtube</h5>
+        <p className="text-white-50">GB</p>
       </div>
       <div className="col-6">
         <SearchBar onSubmit={onSubmit} />
