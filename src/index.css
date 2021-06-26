@@ -15,3 +15,10 @@ iframe {
 #navbar {
   background-color: rgb(32 32 32);
 }
+
+.fas, .fab {
+  color:  white;
+}
+.fab.fa-youtube {
+  color:  red !important;
+}
