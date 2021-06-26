@@ -19,6 +19,7 @@ const Navbar = ({ onSubmit }) => {
           <i className="fas fa-th"></i>
           <i className="fas fa-bell"></i>
           <i className="fas fa-user-circle"></i>
+          {/*<FontAwesomeIcon icon={['fas', 'microphone']} />*/}
         </div>
       </div>
     </div>
