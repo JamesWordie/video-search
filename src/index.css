@@ -52,3 +52,7 @@ iframe {
 .video-result-title {
   color: white;
 }
+
+.video-detail {
+  background-color:  rgb(24 24 24);
+}

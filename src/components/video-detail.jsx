@@ -14,7 +14,7 @@ const VideoDetail = ({ video }) => {
   const randomDislike = Math.floor(Math.random() * 1_000) + 1;
 
   return (
-    <div className="card">
+    <div className="card video-detail" >
       <iframe width="auto" src={`https://youtube.com/embed/${video.id.videoId}`} frameBorder="0"></iframe>
       <div className="card-body border-bottom">
         <h5 className="card-title video-result-title">{video.snippet.title}</h5>
