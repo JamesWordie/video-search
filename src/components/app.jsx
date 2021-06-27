@@ -33,10 +33,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center" id="navbar">
           <Navbar onSubmit={this.handleSubmit} />
         </div>
-        <div className="row">
+        <div className="row py-5">
           <div className="col-md-8">
             <VideoDetail video={this.state.selectedVideo} />
           </div>

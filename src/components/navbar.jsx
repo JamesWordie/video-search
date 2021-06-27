@@ -3,7 +3,7 @@ import SearchBar from './search-bar';
 
 const Navbar = ({ onSubmit }) => {
   return (
-    <div className="d-flex justify-content-between align-items-center w-100" id="navbar ">
+    <div className="d-flex justify-content-between align-items-center w-100">
       <div className="d-flex justify-content-start align-items-center w-100">
         <i className="fas fa-bars mx-3"></i>
         <i className="fab fa-youtube"></i>
