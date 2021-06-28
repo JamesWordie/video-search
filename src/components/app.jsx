@@ -1,8 +1,9 @@
 import React from 'react';
-import SearchBar from './search-bar';
+import Navbar from './navbar';
 import youtube from '../api/youtube';
 import VideoList from './video-list';
 import VideoDetail from './video-detail';
+
 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
@@ -32,12 +33,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-6">
-            <SearchBar onSubmit={this.handleSubmit} />
-          </div>
+        <div className="row justify-content-center" id="navbar">
+          <Navbar onSubmit={this.handleSubmit} />
         </div>
-        <div className="row">
+        <div className="row py-5">
           <div className="col-md-8">
             <VideoDetail video={this.state.selectedVideo} />
           </div>
